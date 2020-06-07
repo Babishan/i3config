@@ -31,7 +31,6 @@ alias yautoremove='yay -Rcns $(yay -Qdtq)'
 alias vii3='vi /home/thashan/.config/i3/config'
 alias vilxdm='sudo vi /etc/lxdm/lxdm.conf'
 alias vibash='vi /home/thashan/.bashrc'
-alias videfault='vi ~/.config/mimeapps.list'
 
 # To use from dmenu
 alias i3lock='i3lock -i /usr/share/backgrounds/lock.png'
