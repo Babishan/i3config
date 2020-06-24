@@ -72,8 +72,11 @@ bindsym Ctrl+Mod1+Delete exec --no-startup-id i3lock -i /usr/share/backgrounds/l
 # open arch wiki
 bindsym Mod1+a exec --no-startup-id /home/thashan/.config/i3/scripts/archwiki.sh
 
-#open youtube
+# open youtube
 bindsym Mod1+y exec --no-startup-id /home/thashan/.config/i3/scripts/youtube.sh
+
+# open fmovies
+bindsym Mod1+f exec --no-startup-id /home/thashan/.config/i3/scripts/fmovies.sh
 
 # change focus
 bindsym $mod+h focus left
@@ -200,4 +203,5 @@ bindsym $mod+r mode "resize"
 # finds out, if available)
 bar {
         status_command i3status
+	font pango:DejaVu Sans Mono 10
 }
