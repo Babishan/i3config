@@ -9,7 +9,7 @@ alias ls='ls --color=auto'
 alias grep='grep --color=auto'
 alias egrep='egrep --color=auto'
 
-PS1='\e[0;32m[\u@\h \W]\$ \e[m'
+PS1='[\u@\h \W]\$ '
 
 alias grep='grep -i --color=auto'
 
